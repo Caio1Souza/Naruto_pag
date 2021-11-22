@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+}
+header{  
+    background-color:#1C1C1C;
+    height: 200px;
+}
+header img#icon {
+    height: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+h1{
+    position: relative;
+    text-align: center;
+    font-size: 30pt;
+    color: #9a413a;
+    padding-top: 35px;
+    font-family: Arial;
+}
+nav {
+    display: block;
+    height: 100px;
+}
+nav#menu ul{
+    position: absolute;
+    text-transform: uppercase;
+    list-style: none;
+    top: 0;
+    right: 25px;  
+}
+nav#menu li{
+    display: inline-block;
+    background-color: #9a413a;
+    font-size: 16pt;
+    padding: 10px;
+    margin: 20px;
+    transition: background-color 0.5s;
+}
+nav#menu li:hover{
+    background-color:#000000; 
+}
+nav#menu a{
+    color: black;
+    text-decoration: none;
+    transition: color 0.5s;
+    font-weight: bolder;
+}
+nav#menu a:hover {
+    color:#9a413a;;
+}
+body {
+    background-color: #C0C0C0;
+}
+.container {
+    display: flex;
+    flex-direction: column;  
+    justify-items: center;
+    align-items: center;
+    margin: 30px;
+}
+.personagem {
+    width: 960px;
+    box-sizing: border-box;
+    margin: 20px;
+    border: 4px solid black;
+    box-shadow: 1px 1px 8px #9a413a;
+    background-image: url(img/background.jpg);  
+    border-radius: 20px;
+}
+.personagem img{
+    width: 50%;
+    margin: 40px auto;
+    border: 2px solid black;
+}
+p {
+    color: white;
+    font-weight: bolder;
+    background-color: #9a413a;
+    font-size: 21pt;
+    text-align: justify;
+    padding: 20px;
+    text-indent: 50px;
+    border-radius: 20px;
+}
+figure {
+    text-align: center;
+    margin: 50px;
+}
+figure figcaption{
+    background-color: #9a413a;
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 220px;
+    color: white;
+    font-size: 28pt;
+}
+footer{
+    background-color: #1C1C1C;
+    height: 40px;
+    text-align: center;
+    font-size: 26pt;
+    color:  #9a413a;
+    padding: 30px;
+    font-weight: bolder;
+}
